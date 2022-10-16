@@ -4,7 +4,7 @@ import styled from 'styled-components';
 export interface NotionRendererProps {}
 
 const StyledNotionRenderer = styled.div`
-  color: pink;
+  color: red;
 `;
 
 export function NotionRenderer(props: NotionRendererProps) {
