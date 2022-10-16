@@ -11,6 +11,7 @@
 ## Contents
 
 - [Supported Blocks](#supported-blocks)
+- [Resources](#resources)
 
 ## Supported Blocks
 
@@ -57,3 +58,7 @@
 | Collection View List     | ⚠️ WIP     | `collection_view`      | `type = "list"` (vertical list view)                                                                             |
 | Collection View Calendar | ❌ Missing | `collection_view`      | `type = "calendar"` (embedded calendar view)                                                                     |
 | Collection View Page     | ⚠️ WIP     | `collection_view_page` | Collection view as a standalone page                                                                             |
+
+## Resources
+
+[Notion Color guide](https://optemization.com/notion-color-guide)
