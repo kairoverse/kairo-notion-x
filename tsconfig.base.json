@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@kairoverse/notion-x": ["libs/notion-renderer/src/index.ts"]
+      "@kairoverse/notion-x": ["libs/notion-renderer/src/index.ts"],
+      "@kairoverse/notion-x/css": ["libs/notion-renderer/src/index.css"]
     }
   },
   "exclude": ["node_modules", "tmp"]

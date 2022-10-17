@@ -1,0 +1,48 @@
+/* NOTION STYLES */
+
+:root {
+  --gray: #9b9a97;
+  --brown: #64473a;
+  --orange: #d9730d;
+  --yellow: #dfab01;
+  --green: #0f7b6c;
+  --blue: #0b6e99;
+  --purple: #6940a5;
+  --pink: #ad1a72;
+  --red: #e03e3e;
+
+  --gray_background: #ebeced;
+  --brown_background: #e9e5e3;
+  --orange_background: #faebdd;
+  --yellow_background: #fbf3db;
+  --green_background: #ddedea;
+  --blue_background: #ddebf1;
+  --purple_background: #eae4f2;
+  --pink_background: #f4dfeb;
+  --red_background: #fbe4e4;
+  
+  /* Additional */
+  --monospace_background: var(--yellow_background)
+}
+
+:root[data-theme='dark'] {
+  --gray: #979a9b;
+  --brown: #937264;
+  --orange: #ffa344;
+  --yellow: #ffdc49;
+  --green: #4dab9a;
+  --blue: #529cca;
+  --purple: #9a6dd7;
+  --pink: #e255a1;
+  --red: #ff7369;
+
+  --gray_background: #454b4e;
+  --brown_background: #434040;
+  --orange_background: #594a3a;
+  --yellow_background: #59563b;
+  --green_background: #354c4b;
+  --blue_background: #364954;
+  --purple_background: #443f57;
+  --pink_background: #533b4c;
+  --red_background: #594141;
+}
