@@ -18,13 +18,13 @@
 | Block Type               | Supported  | Block Type Enum        | Notes                                                                                                            |
 | ------------------------ | ---------- | ---------------------- | ---------------------------------------------------------------------------------------------------------------- |
 | Page                     | ⚠️ WIP     | `page`                 | -                                                                                                                |
-| Text                     | ✅ Yes     | `text`                 | Supports `bold`, `italic`, `underline`, `strikethrough`, `code`, `color` and `background-color`                  |
+| Text                     | ✅ Yes     | `paragraph`            | Supports `bold`, `italic`, `underline`, `strikethrough`, `code`, `color` and `background-color`                  |
 | Bookmark                 | ⚠️ WIP     | `bookmark`             | Embedded preview of external URL                                                                                 |
 | Bulleted List            | ⚠️ WIP     | `bulleted_list`        | `<ul>`                                                                                                           |
 | Numbered List            | ⚠️ WIP     | `numbered_list`        | `<ol>`                                                                                                           |
-| Heading 1                | ⚠️ WIP     | `header`               | `<h1>`                                                                                                           |
-| Heading 2                | ⚠️ WIP     | `sub_header`           | `<h2>`                                                                                                           |
-| Heading 3                | ⚠️ WIP     | `sub_sub_header`       | `<h3>`                                                                                                           |
+| Heading 1                | ✅ Yes     | `heading_1`            | `<h1>` - With `Text` like formatting options                                                                     |
+| Heading 2                | ✅ Yes     | `heading_2`            | `<h2>`- With `Text` like formatting options                                                                      |
+| Heading 3                | ✅ Yes     | `heading_3`            | `<h3>` - With `Text` like formatting options                                                                     |
 | Quote                    | ⚠️ WIP     | `quote`                | `"xxx"`                                                                                                          |
 | Callout                  | ⚠️ WIP     | `callout`              | `! xxx`                                                                                                          |
 | Equation (block)         | ⚠️ WIP     | `equation`             | [katex](https://katex.org/) via [react-katex](https://github.com/MatejBransky/react-katex)                       |
