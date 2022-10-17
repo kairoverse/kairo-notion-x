@@ -18,7 +18,7 @@
 | Block Type               | Supported  | Block Type Enum        | Notes                                                                                                            |
 | ------------------------ | ---------- | ---------------------- | ---------------------------------------------------------------------------------------------------------------- |
 | Page                     | ⚠️ WIP     | `page`                 | -                                                                                                                |
-| Text                     | ✅ Yes     | `text`                 | -                                                                                                                |
+| Text                     | ✅ Yes     | `text`                 | Supports `bold`, `italic`, `underline`, `strikethrough`, `code`, `color` and `background-color`                  |
 | Bookmark                 | ⚠️ WIP     | `bookmark`             | Embedded preview of external URL                                                                                 |
 | Bulleted List            | ⚠️ WIP     | `bulleted_list`        | `<ul>`                                                                                                           |
 | Numbered List            | ⚠️ WIP     | `numbered_list`        | `<ol>`                                                                                                           |
