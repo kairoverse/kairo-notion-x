@@ -1,5 +1,4 @@
 /* NOTION STYLES */
-
 :root {
   --gray: #9b9a97;
   --brown: #64473a;
@@ -20,9 +19,9 @@
   --purple_background: #eae4f2;
   --pink_background: #f4dfeb;
   --red_background: #fbe4e4;
-  
+
   /* Additional */
-  --monospace_background: var(--yellow_background)
+  --monospace_background: var(--yellow_background);
 }
 
 :root[data-theme='dark'] {
