@@ -1,7 +1,9 @@
 import styled from 'styled-components';
+import { opengraph } from '@kairoverse/opengraph'
 import { NotionRenderer } from '@kairoverse/notion-x';
 
 import type { GetServerSideProps } from 'next';
+import { useEffect } from 'react';
 
 export const getServerSideProps: GetServerSideProps = async () => {
   const page = await (

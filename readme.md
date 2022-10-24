@@ -15,6 +15,8 @@
 
 ## Supported Blocks
 
+> Text does not support link tag at the moment.
+
 | Block Type               | Supported  | Block Type Enum        | Notes                                                                                                            |
 | ------------------------ | ---------- | ---------------------- | ---------------------------------------------------------------------------------------------------------------- |
 | Page                     | ⚠️ WIP     | `page`                 | -                                                                                                                |

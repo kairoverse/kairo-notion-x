@@ -16,7 +16,8 @@
     "baseUrl": ".",
     "paths": {
       "@kairoverse/notion-x": ["libs/notion-renderer/src/index.ts"],
-      "@kairoverse/notion-x/css": ["libs/notion-renderer/src/index.css"]
+      "@kairoverse/notion-x/css": ["libs/notion-renderer/src/index.css"],
+      "@kairoverse/opengraph": ["libs/opengraph/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
